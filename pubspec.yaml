@@ -1,0 +1,93 @@
+name: FiniZen
+description: "Finance made zen"
+
+publish_to: 'none' 
+
+version: 1.0.0+4
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  #google_fonts: ^6.2.1
+  awesome_notifications: ^0.10.1
+  device_info_plus: ^10.0.0
+  timezone: ^0.10.1
+  flutter_native_splash: ^2.4.4
+  change_app_package_name: ^1.5.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_svg: ^2.2.0
+  introduction_screen: ^3.1.12
+  fluttermoji: ^1.0.2
+  shared_preferences: ^2.2.2
+  currency_picker: ^2.0.16
+  excel: ^4.0.6
+  flutter_app_lock: ^4.2.0+2
+  flutter_secure_storage: ^9.2.4
+  local_auth: ^2.1.6
+  photo_view: ^0.15.0  
+  flutter_file_dialog: ^3.0.0
+  archive: ^3.4.9
+  file_picker: ^10.2.0
+  permission_handler: ^11.3.1
+  sqflite: ^2.0.2  
+  path: ^1.9.1
+  path_provider: ^2.1.2
+  image_gallery_saver_plus: ^4.0.1
+  provider: ^6.1.5
+  table_calendar: ^3.2.0
+  flutter_date_range_picker: ^0.2.1
+  form_builder_file_picker: ^5.0.0
+  form_builder_validators: ^11.2.0
+  flutter_form_builder: ^10.1.0
+  dropdown_textfield: ^1.2.0
+  image_picker: ^1.1.2
+  autoscale_tabbarview: ^1.0.2
+  intl: ^0.20.2
+  flutter_advanced_drawer: ^1.5.0
+  carousel_slider: ^5.1.1
+  material_charts: ^0.0.27
+  cupertino_icons: ^1.0.8
+
+flutter_native_splash:
+  color: "#ffffff"  # or use an image instead
+  image: assets/icon/iconTransparent.png
+  android: true
+  ios: true
+  android_gravity: center
+  ios_content_mode: center
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/appIcon.png" # your app icon path
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^5.0.0
+
+
+flutter:  
+  uses-material-design: true
+
+  assets:
+    - assets/images/savings.png
+    - assets/images/currency.png
+    - assets/images/password.png
+    - assets/images/applock.png
+    - assets/icon/appIcon.png
+    - assets/icon/iconTransparent.png
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Light.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
+  
